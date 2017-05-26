@@ -1,0 +1,65 @@
+body {
+    padding: 50px;
+}
+
+h1.page-header {
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+}
+
+.main-menu ul {
+    padding-left: 10px
+}
+
+.main-menu li {
+    list-style: none;
+    line-height: 20px;
+    padding: 2px 0 2px 8px
+}
+
+.main-menu li a {
+    color: #777
+}
+
+.main-menu .trigger {
+    padding: 2px 0 2px 5px
+}
+
+.main-menu .trigger>a {
+    color: #555;
+    font-weight: bold
+}
+
+.main-menu .trigger:hover {
+    cursor: pointer
+}
+
+.main-menu .trigger .glyphicon {
+    width: 12px;
+    line-height: 17px;
+    font-size: 8px;
+    float: left;
+    display: block;
+    color: #aaa
+}
+
+.main-menu ul li ul {
+    display: none
+}
+
+.main-menu li.active>ul {
+    display: block
+}
+
+.main-menu li.current>a,
+.main-menu li.current>.trigger>a {
+    text-decoration: underline
+}
+
+.main-menu ul>li>ul>.child {
+    margin-left: 17px
+}
+
+.main-menu .child a {
+    display: block
+}
