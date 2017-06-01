@@ -1,6 +1,5 @@
 $(document).ready(function() {
     if ($('.main-menu .parent.active > .trigger > .glyphicon').hasClass('glyphicon-plus')) {
-        console.log($('.main-menu .parent.active > .trigger > .glyphicon'));
         $('.main-menu .parent.active > .trigger > .glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
     }
 });
