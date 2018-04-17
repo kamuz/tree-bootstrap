@@ -18,7 +18,11 @@ h1.page-header {
 }
 
 .main-menu li a {
-    color: #777
+    /*color: #777
+     *
+     * 最终子节点的文字颜色  
+     * */
+   color:blueviolet;
 }
 
 .main-menu .trigger {
@@ -26,7 +30,10 @@ h1.page-header {
 }
 
 .main-menu .trigger>a {
-    color: #555;
+   /* color: #555;
+    * 菜单文字的颜色
+    * */
+  color:red;
     font-weight: bold
 }
 
@@ -40,7 +47,11 @@ h1.page-header {
     font-size: 8px;
     float: left;
     display: block;
-    color: #aaa
+    /*
+     * color: #aaa
+     * 图标 + - 的颜色
+     */
+   	color:green;
 }
 
 .main-menu ul li ul {
